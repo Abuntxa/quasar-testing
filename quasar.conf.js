@@ -47,7 +47,8 @@ module.exports = function (ctx) {
 
       // Quasar plugins
       plugins: [
-        'Notify'
+        'Notify',
+        'LocalStorage'
       ]
 
       // iconSet: 'ionicons-v4'
@@ -68,7 +69,11 @@ module.exports = function (ctx) {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /node_modules/
+          exclude: /node_modules/,
+          // We autocorrect simple format errors
+          options: {
+            fix: true
+          }
         })
       }
     },

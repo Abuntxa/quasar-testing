@@ -29,6 +29,7 @@ module.exports = {
   testMatch: [
     '<rootDir>/test/jest/__tests__/**/*.spec.js',
     '<rootDir>/test/jest/__tests__/**/*.test.js',
+    '<rootDir>/src/**/__tests__/*.spec.js',
     '<rootDir>/src/**/__tests__/*_jest.spec.js'
   ],
   moduleFileExtensions: [
@@ -43,6 +44,7 @@ module.exports = {
     '^vue$': '<rootDir>/node_modules/vue/dist/vue.common.js',
     '^test-utils$': '<rootDir>/node_modules/@vue/test-utils/dist/vue-test-utils.js',
     '^quasar$': '<rootDir>/node_modules/quasar/dist/quasar.common.js',
+    '^test-common$': '<rootDir>/test/jest/utils/testCommon.js',
     '^~/(.*)$': '<rootDir>/$1',
     '^src/(.*)$': '<rootDir>/src/$1',
     '.*css$': '<rootDir>/test/jest/utils/stub.css'
