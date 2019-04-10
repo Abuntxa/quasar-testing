@@ -2,8 +2,6 @@
 
 The aim of this repo is to show the problems I was having in the instantiation of the components for testing purposes.
 
-I
-
 ## How has the project been created?
 
 ### Create the basic project
