@@ -2,6 +2,12 @@
 
 The aim of this repo is to show the problems I was having in the instantiation of the components for testing purposes.
 
+To reproduce the problems. run:
+> npm run test:unit
+
+To see the tests passing uncomment/comment the beforeEach for beforeAll and afterEach for afterAll; and run again:
+> npm run test:unit
+
 ## How has the project been created?
 
 ### Create the basic project
