@@ -19,18 +19,19 @@
   "dependencies": {
     "@quasar/extras": "^1.1.1",
     "axios": "^0.18.0",
-    "portal-vue": "^2.0.0",
-    "quasar": "^1.0.0-beta.15",
+    "portal-vue": "^2.1.0",
+    "quasar": "^1.0.0-beta.17",
     "vue-i18n": "^8.10.0"
   },
   "devDependencies": {
-    "@quasar/app": "^1.0.0-beta.15",
+    "@quasar/app": "^1.0.0-beta.17",
     "@quasar/quasar-app-extension-testing": "^1.0.0-rc.5",
     "@quasar/quasar-app-extension-testing-unit-jest": "^1.0.0-beta.22",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-loader": "^2.1.2",
+    "eslint-plugin-jest": "^22.4.1",
     "eslint-plugin-vue": "^5.2.2",
     "strip-ansi": "=3.0.1"
   },
